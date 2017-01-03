@@ -1,3 +1,10 @@
+# Angular 2 Router Issue with Lazy Loading
+
+Angular app does simple routing with one of the routes using the 
+loadChildren function.  The app gets an error when attempting to load the 
+module.
+
+---
 # BpcsAngRouteIssue
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
