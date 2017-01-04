@@ -15,9 +15,9 @@ import comp3Routes from "./comp3.routes";
         Comp3Component
     ],
     exports: [
-        Comp3Component, comp3Routes
+        Comp3Component
     ],
 
     providers: [],
 })
-export default class Comp3Module { }
+export class Comp3Module { }

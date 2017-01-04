@@ -7,7 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
-import appRoutes from "./app.routes";
+import { appRoutes } from "./app.routes";
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import appRoutes from "./app.routes";
     BrowserModule,
     FormsModule,
     HttpModule,
-    appRoutes,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]

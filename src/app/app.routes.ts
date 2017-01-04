@@ -4,12 +4,12 @@ import {Comp2Component} from "./comp2/comp2.component";
 
 
 
-const appRoutes: Routes  = [
+export const appRoutes: Routes  = [
     { path: 'comp1', component: Comp1Component},
     { path: 'comp2', component: Comp2Component},
-    { path: 'comp3', loadChildren: 'app/comp3/comp3.module'},
+    { path: 'comp3', loadChildren: './comp3/comp3.module#Comp3Module'},
 
 
 ];
 
-export default RouterModule.forRoot(appRoutes);
+
