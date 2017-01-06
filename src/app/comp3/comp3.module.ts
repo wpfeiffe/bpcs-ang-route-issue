@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Comp3Component } from "./comp3.component";
 import { Routes, RouterModule } from '@angular/router';
-import comp3Routes from "./comp3.routes";
+import { comp3Routing } from "./comp3.routes";
 
 @NgModule({
     imports: [
         CommonModule,
         RouterModule,
-        comp3Routes,
+        comp3Routing,
 
     ],
     declarations: [

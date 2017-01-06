@@ -5,4 +5,4 @@ const routes: Routes = [
     {path: '', component:Comp3Component}
 ];
 
-export default RouterModule.forChild(routes);
+export const comp3Routing = RouterModule.forChild(routes);
